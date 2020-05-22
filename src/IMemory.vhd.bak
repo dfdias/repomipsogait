@@ -1,0 +1,27 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity IMemory is
+    Port ( EN : in  std_logic;
+           RA : in  std_logic_vector(7 downto 0);
+			  RD : out std_logic_vector(15 downto 0));
+end IMemory;
+
+architecture RTL of IMemory is
+	type mem2_4 is array (0 to 7) of std_logic_vector(15 downto 0);
+	constant rom : mem2_4 :=(X"0004",X"0005",others => X"0000" );
+								
+begin
+	RD <= rom(to_integer(unsigned(RA)));
+end RTL;
+

@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/xenomai/Desktop/Projeto_final_LSD/LSD_MICRO/src/output_files/ControlUnit.vhd}
+

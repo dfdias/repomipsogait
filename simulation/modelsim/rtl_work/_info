@@ -1,0 +1,862 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/duarte/repo/LSD_MICRO/simulation/modelsim
+Ealu
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+32
+Z4 !s110 1590151912
+!i10b 1
+Z5 w1590151902
+R0
+Z6 8/home/duarte/repo/LSD_MICRO/src/alu.vhd
+Z7 F/home/duarte/repo/LSD_MICRO/src/alu.vhd
+l0
+L6
+VBnn=U4zoII579hNQNkgUj3
+!s100 BBRPmlf@5ae0l?IFImEIM3
+Z8 OV;C;10.5b;63
+Z9 !s108 1590151912.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/alu.vhd|
+Z11 !s107 /home/duarte/repo/LSD_MICRO/src/alu.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 3 alu 0 22 Bnn=U4zoII579hNQNkgUj3
+32
+R4
+!i10b 1
+l22
+L16
+VG::X5j=9dic>=gRF391081
+!s100 LUQC?E0NL=63mToghDlmZ1
+R8
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealucontrol
+R1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R2
+R3
+32
+Z17 !s110 1590140167
+!i10b 1
+Z18 w1590096527
+R0
+Z19 8/home/duarte/repo/LSD_MICRO/src/aluControl.vhd
+Z20 F/home/duarte/repo/LSD_MICRO/src/aluControl.vhd
+l0
+L9
+VKYgE1Z;koc_1A]eOC_:CS2
+!s100 RU?E==JUO0R?7zMI=Xb>G2
+R8
+Z21 !s108 1590140167.000000
+Z22 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/aluControl.vhd|
+Z23 !s107 /home/duarte/repo/LSD_MICRO/src/aluControl.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R15
+R16
+R2
+R3
+DEx4 work 10 alucontrol 0 22 KYgE1Z;koc_1A]eOC_:CS2
+32
+R17
+!i10b 1
+l21
+L19
+VzJ5DDChR40?z:[lJUQ?lm2
+!s100 0:>K`ho`RhiGa@AM?aQ7f3
+R8
+R21
+R22
+R23
+!i113 1
+R12
+R13
+Econtrol
+R2
+R3
+32
+Z24 !s110 1590140168
+!i10b 1
+R18
+R0
+Z25 8/home/duarte/repo/LSD_MICRO/src/control.vhd
+Z26 F/home/duarte/repo/LSD_MICRO/src/control.vhd
+l0
+L13
+VCmXlMB=Kh4AUeO;hod1D>1
+!s100 bDCenOR>jU7>MCUL@`lg72
+R8
+Z27 !s108 1590140168.000000
+Z28 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/control.vhd|
+Z29 !s107 /home/duarte/repo/LSD_MICRO/src/control.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 7 control 0 22 CmXlMB=Kh4AUeO;hod1D>1
+32
+R24
+!i10b 1
+l29
+L26
+VP:gHDPjMkEIK4f^YZQ]U61
+!s100 :Q_ZYN;XEl5=`g<1z7:692
+R8
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Econtrolunit
+Z30 w1590152555
+R15
+R16
+R2
+R3
+R0
+Z31 8/home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+Z32 F/home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+l0
+L5
+VH?]CQZLj?k9=6NDRMVIPg3
+!s100 HH7VB`NeoJdVDC2b]0a^43
+R8
+32
+Z33 !s110 1590152580
+!i10b 1
+Z34 !s108 1590152580.000000
+Z35 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd|
+Z36 !s107 /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R15
+R16
+R2
+R3
+Z37 DEx4 work 11 controlunit 0 22 H?]CQZLj?k9=6NDRMVIPg3
+l33
+L25
+VD8ECmk^n9Y0Y[a=W2z?BY3
+!s100 AkC2lGC@dZ`;CUO:F>AYV3
+R8
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Ectr_unit_tb
+R1
+R2
+R3
+32
+R24
+!i10b 1
+R18
+R0
+8/home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd
+F/home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd
+l0
+L5
+VLjhC]P5a_OQgM1GhkgmW23
+!s100 4Z5:o86^J`]4LM0cWlHUe0
+R8
+R27
+!s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd|
+!s107 /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd|
+!i113 1
+R12
+R13
+Edata_memory
+R1
+R2
+R3
+32
+Z38 !s110 1590140169
+!i10b 1
+R18
+R0
+Z39 8/home/duarte/repo/LSD_MICRO/src/data_memory.vhd
+Z40 F/home/duarte/repo/LSD_MICRO/src/data_memory.vhd
+l0
+L5
+VZ;fg?5U9S7c0QlKGFG`Jg2
+!s100 :k2cN4@jzSfT@Nc7j`5dM0
+R8
+Z41 !s108 1590140169.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/data_memory.vhd|
+Z43 !s107 /home/duarte/repo/LSD_MICRO/src/data_memory.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+Z44 DEx4 work 11 data_memory 0 22 Z;fg?5U9S7c0QlKGFG`Jg2
+32
+R38
+!i10b 1
+l28
+L21
+VQJKH<TGc`=_LdI1QK5lHl1
+!s100 QoDW;RITc?nlgCCM0eGIB0
+R8
+R41
+R42
+R43
+!i113 1
+R12
+R13
+Edatapath
+R1
+R15
+R16
+R2
+R3
+32
+Z45 !s110 1590145174
+!i10b 1
+Z46 w1590106400
+R0
+Z47 8/home/duarte/repo/LSD_MICRO/src/datapath.vhd
+Z48 F/home/duarte/repo/LSD_MICRO/src/datapath.vhd
+l0
+L8
+VlQ4C453]a@G1bV6>3obWZ0
+!s100 FN2Ek:GEf?G[Y?^Yf_=3R2
+R8
+Z49 !s108 1590145174.000000
+Z50 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/datapath.vhd|
+Z51 !s107 /home/duarte/repo/LSD_MICRO/src/datapath.vhd|
+!i113 1
+R12
+R13
+Astruct
+Z52 DEx4 work 7 dmemory 0 22 `hTZ9<JITcme?HNe2CW7m2
+R14
+Z53 DEx4 work 9 registers 0 22 n@1UK2d3b?DB?6goZ6N^N1
+Z54 DEx4 work 3 mux 0 22 JASVH9;09Q]`Z1le9`?N[3
+Z55 DEx4 work 15 signal_extender 0 22 n3VHEmL77A<k0z8ZTZd9V2
+Z56 DEx4 work 7 imemory 0 22 hkC0RSnUHkP0<^d4f;jBA1
+Z57 DEx4 work 2 pc 0 22 ?FQYD;X:5MSzHemjo5h>80
+R1
+R15
+R16
+R2
+R3
+Z58 DEx4 work 8 datapath 0 22 lQ4C453]a@G1bV6>3obWZ0
+32
+R45
+!i10b 1
+l48
+L23
+Vc3CaL0^8dW=46g86zY8m13
+!s100 `L6E8FNV3[bm9`A[W<4oJ3
+R8
+R49
+R50
+R51
+!i113 1
+R12
+R13
+Edatapath_tb
+Z59 w1590153023
+R1
+R2
+R3
+R0
+Z60 8/home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+Z61 F/home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+l0
+L30
+VbFk?ZHWm?em=PKa4M:oe:2
+!s100 zkH2zYXITT7hX<dZDdQEo3
+R8
+32
+Z62 !s110 1590153034
+!i10b 1
+Z63 !s108 1590153034.000000
+Z64 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd|
+Z65 !s107 /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R15
+R16
+R58
+R1
+R2
+R3
+DEx4 work 11 datapath_tb 0 22 bFk?ZHWm?em=PKa4M:oe:2
+l55
+L36
+VX7=ekDV]la^;4c8JUl1A@2
+!s100 Gkd6`X[DZS0OO7SiiLF;T1
+R8
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R12
+R13
+Edmemory
+R1
+R2
+R3
+32
+Z66 !s110 1590140174
+!i10b 1
+Z67 w1590111172
+R0
+Z68 8/home/duarte/repo/LSD_MICRO/src/DMemory.vhd
+Z69 F/home/duarte/repo/LSD_MICRO/src/DMemory.vhd
+l0
+L5
+V`hTZ9<JITcme?HNe2CW7m2
+!s100 FQ>=?@j9lj;G6GD5RklO73
+R8
+Z70 !s108 1590140174.000000
+Z71 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/DMemory.vhd|
+Z72 !s107 /home/duarte/repo/LSD_MICRO/src/DMemory.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R52
+32
+R66
+!i10b 1
+l18
+L13
+Vc0]NK7oGVlTE:7@_h]I:V3
+!s100 aRjHY5j^T3D5N<f_z;P^H3
+R8
+R70
+R71
+R72
+!i113 1
+R12
+R13
+Edmemory_tb
+Z73 w1590111231
+R1
+R2
+R3
+R0
+Z74 8/home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd
+Z75 F/home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd
+l0
+L30
+VlGO@EPdB65nTEKb:Y:BOG0
+!s100 gI_WQd<<^b83]gKO<7::J1
+R8
+32
+Z76 !s110 1590152797
+!i10b 1
+Z77 !s108 1590152797.000000
+Z78 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd|
+Z79 !s107 /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R52
+R1
+R2
+R3
+DEx4 work 10 dmemory_tb 0 22 lGO@EPdB65nTEKb:Y:BOG0
+l51
+L36
+V:E[BieZ3hPAWH5OIC@D0Z0
+!s100 zK83ZK:e]GP>a98YP<lUY2
+R8
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 1
+R12
+R13
+Eimemory
+R1
+R2
+R3
+32
+Z80 !s110 1590140173
+!i10b 1
+Z81 w1590108881
+R0
+Z82 8/home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+Z83 F/home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+l0
+L5
+VhkC0RSnUHkP0<^d4f;jBA1
+!s100 ;3N2WMoSX06?aX^2URdFn0
+R8
+Z84 !s108 1590140173.000000
+Z85 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/IMemory.vhd|
+Z86 !s107 /home/duarte/repo/LSD_MICRO/src/IMemory.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R56
+32
+R80
+!i10b 1
+l31
+L12
+V5WP@M2Jz<Y7[:[BD1;POf3
+!s100 cCYd?1VgNZZXZmTJNgH[@1
+R8
+R84
+R85
+R86
+!i113 1
+R12
+R13
+Einterconnect_tb
+Z87 w1590145702
+R1
+R2
+R3
+R0
+Z88 8/home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+Z89 F/home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+l0
+L30
+VUZ@??oc[b8]ShOieM^E0g2
+!s100 zO:N1P6m3JWOn=9IJ@:5U2
+R8
+32
+Z90 !s110 1590153567
+!i10b 1
+Z91 !s108 1590153567.000000
+Z92 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/interconnect.vhd|
+Z93 !s107 /home/duarte/repo/LSD_MICRO/src/interconnect.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R37
+R15
+R16
+R58
+R1
+R2
+R3
+Z94 DEx4 work 15 interconnect_tb 0 22 UZ@??oc[b8]ShOieM^E0g2
+l56
+L36
+Z95 Vek]LVjig:E0<EY:12BXOA3
+Z96 !s100 MNIX@UP6Sj3:Oj2D4dLg=2
+R8
+32
+R90
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R12
+R13
+Ememory_cheat
+R1
+R2
+R3
+32
+Z97 !s110 1590140170
+!i10b 1
+R18
+R0
+Z98 8/home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd
+Z99 F/home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd
+l0
+L5
+Vg5>ZP;NBnbFlmYI><j81e1
+!s100 1BMdkUaO8P1DjzJZBUZZa2
+R8
+Z100 !s108 1590140170.000000
+Z101 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd|
+Z102 !s107 /home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd|
+!i113 1
+R12
+R13
+Ab
+R1
+R2
+R3
+DEx4 work 12 memory_cheat 0 22 g5>ZP;NBnbFlmYI><j81e1
+32
+R97
+!i10b 1
+l17
+L14
+VPkTMeF=g@c_H7XVaO@_GF2
+!s100 dkX`@G9O>amTIDbz@zV0b1
+R8
+R100
+R101
+R102
+!i113 1
+R12
+R13
+Ememory_junction
+R1
+R2
+R3
+32
+Z103 !s110 1590140175
+!i10b 1
+R18
+R0
+Z104 8/home/duarte/repo/LSD_MICRO/src/memory_junction.vhd
+Z105 F/home/duarte/repo/LSD_MICRO/src/memory_junction.vhd
+l0
+L5
+VP2@_01`A]hCMF[G>5EoJz1
+!s100 d3oEQK5cZInf5JU>AgQ:a2
+R8
+Z106 !s108 1590140175.000000
+Z107 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/memory_junction.vhd|
+Z108 !s107 /home/duarte/repo/LSD_MICRO/src/memory_junction.vhd|
+!i113 1
+R12
+R13
+Astruct
+R44
+R1
+R2
+R3
+DEx4 work 15 memory_junction 0 22 P2@_01`A]hCMF[G>5EoJz1
+32
+R103
+!i10b 1
+l32
+L23
+VoVJS_;gh05V<a^mZDIh_D3
+!s100 3z90gPdOF>:XHVfCb5>>@2
+R8
+R106
+R107
+R108
+!i113 1
+R12
+R13
+Emux
+R2
+R3
+32
+Z109 !s110 1590140176
+!i10b 1
+R18
+R0
+Z110 8/home/duarte/repo/LSD_MICRO/src/mux.vhd
+Z111 F/home/duarte/repo/LSD_MICRO/src/mux.vhd
+l0
+L4
+VJASVH9;09Q]`Z1le9`?N[3
+!s100 f`CellABT8gSeMX7nfVLl1
+R8
+Z112 !s108 1590140176.000000
+Z113 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/mux.vhd|
+Z114 !s107 /home/duarte/repo/LSD_MICRO/src/mux.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R54
+32
+R109
+!i10b 1
+l14
+L13
+V@aLe89BbD>d=dIDcDChjo2
+!s100 aOQOOaI23cjR[8hC_YFme0
+R8
+R112
+R113
+R114
+!i113 1
+R12
+R13
+Emuxreg
+R2
+R3
+32
+Z115 !s110 1590140177
+!i10b 1
+R18
+R0
+Z116 8/home/duarte/repo/LSD_MICRO/src/muxreg.vhd
+Z117 F/home/duarte/repo/LSD_MICRO/src/muxreg.vhd
+l0
+L4
+VKUHed?<Le^OM]0no34;m<3
+!s100 h1^_XUnMgo37T1G7EY@8o2
+R8
+Z118 !s108 1590140177.000000
+Z119 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/muxreg.vhd|
+Z120 !s107 /home/duarte/repo/LSD_MICRO/src/muxreg.vhd|
+!i113 1
+R12
+R13
+Ab
+R2
+R3
+DEx4 work 6 muxreg 0 22 KUHed?<Le^OM]0no34;m<3
+32
+R115
+!i10b 1
+l17
+L16
+Vj@b7Jz[mZog>OKf7<34J;1
+!s100 DQ_R0TM4ei=ToDQJ9G`c20
+R8
+R118
+R119
+R120
+!i113 1
+R12
+R13
+Epc
+R15
+R2
+R3
+32
+Z121 !s110 1590151586
+!i10b 1
+Z122 w1590151567
+R0
+Z123 8/home/duarte/repo/LSD_MICRO/src/pc.vhd
+Z124 F/home/duarte/repo/LSD_MICRO/src/pc.vhd
+l0
+L5
+V?FQYD;X:5MSzHemjo5h>80
+!s100 92]dmUjz?<c@kLHHT`k=60
+R8
+Z125 !s108 1590151586.000000
+Z126 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/pc.vhd|
+Z127 !s107 /home/duarte/repo/LSD_MICRO/src/pc.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R15
+R2
+R3
+R57
+32
+R121
+!i10b 1
+l14
+L12
+VRVib7i]goBVEeTZfTXn<N0
+!s100 :gcXiVMTS3N23Efz=]5<Z0
+R8
+R125
+R126
+R127
+!i113 1
+R12
+R13
+Eregimemory
+R1
+R15
+R16
+R2
+R3
+32
+!s110 1590140178
+!i10b 1
+R18
+R0
+8/home/duarte/repo/LSD_MICRO/src/register.vhd
+F/home/duarte/repo/LSD_MICRO/src/register.vhd
+l0
+L7
+V>7dN<C^10YN[`do7=SlX>0
+!s100 ?C4`S_m;j24WY<CHnB=_03
+R8
+!s108 1590140178.000000
+!s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/register.vhd|
+!s107 /home/duarte/repo/LSD_MICRO/src/register.vhd|
+!i113 1
+R12
+R13
+Eregisters
+Z128 w1590153212
+R1
+R2
+R3
+R0
+Z129 8/home/duarte/repo/LSD_MICRO/src/registers.vhd
+Z130 F/home/duarte/repo/LSD_MICRO/src/registers.vhd
+l0
+L5
+Vn@1UK2d3b?DB?6goZ6N^N1
+!s100 mfI;ZLCoG7B`zo:1Kf9320
+R8
+32
+Z131 !s110 1590153237
+!i10b 1
+Z132 !s108 1590153237.000000
+Z133 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/registers.vhd|
+Z134 !s107 /home/duarte/repo/LSD_MICRO/src/registers.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+R53
+l25
+L19
+V28]IVJ9f=1UI<>BeIY>772
+!s100 ?_]h@zf^I05KdEbgo6AGR0
+R8
+32
+R131
+!i10b 1
+R132
+R133
+R134
+!i113 1
+R12
+R13
+Eregisters_tb
+R1
+R2
+R3
+32
+!s110 1590140179
+!i10b 1
+R18
+R0
+8/home/duarte/repo/LSD_MICRO/src/registers_tb.vhd
+F/home/duarte/repo/LSD_MICRO/src/registers_tb.vhd
+l0
+L5
+VzSo2VL:8;BJo];m9n:<:X2
+!s100 XD5m0od5c`V5R7V3cUGY33
+R8
+!s108 1590140179.000000
+!s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/registers_tb.vhd|
+!s107 /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd|
+!i113 1
+R12
+R13
+Esignal_extender
+R15
+R16
+R2
+R3
+32
+Z135 !s110 1590140180
+!i10b 1
+R18
+R0
+Z136 8/home/duarte/repo/LSD_MICRO/src/signal_extender.vhd
+Z137 F/home/duarte/repo/LSD_MICRO/src/signal_extender.vhd
+l0
+L5
+Vn3VHEmL77A<k0z8ZTZd9V2
+!s100 I0LVL0God5HNQebi^oW>L1
+R8
+Z138 !s108 1590140180.000000
+Z139 !s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/signal_extender.vhd|
+Z140 !s107 /home/duarte/repo/LSD_MICRO/src/signal_extender.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R15
+R16
+R2
+R3
+R55
+32
+R135
+!i10b 1
+l12
+L10
+VjeH6jU[YMiYUR0JZ[7VNO3
+!s100 8`O04VS?m;AY;3WAJmH^h1
+R8
+R138
+R139
+R140
+!i113 1
+R12
+R13
+Esinglecyclecpu
+R1
+R15
+R16
+R2
+R3
+32
+!s110 1590140181
+!i10b 1
+R18
+R0
+8/home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd
+F/home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd
+l0
+L10
+VfDcP8K_^Ui:0Q7li2>>[g1
+!s100 7Ifhi7EkjOe22L:RBJ5131
+R8
+!s108 1590140181.000000
+!s90 -reportprogress|300|-work|work|/home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd|
+!s107 /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd|
+!i113 1
+R12
+R13

@@ -1,0 +1,3203 @@
+# ERROR: No extended dataflow license exists
+# do micro_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /opt/altera/19.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/duarte/repo/LSD_MICRO/src/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:35:40 on May 22,2020
+# vcom -reportprogress 300 -93 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 10:35:40 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:35:40 on May 22,2020
+# vcom -reportprogress 300 -93 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# ** Error: (vcom-11) Could not find work.datapath.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(147): (vcom-1195) Cannot find expanded name "work.datapath".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(147): Unknown expanded name.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(162): VHDL Compiler exiting
+# End time: 10:35:40 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./micro_run_msim_rtl_vhdl.do line 10
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd}"
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:05 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 10:36:05 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:05 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture Behavioral of control
+# End time: 10:36:05 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:05 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture Behavioral of control
+# End time: 10:36:05 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/aluControl.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:07 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/aluControl.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity aluControl
+# -- Compiling architecture behavioral of aluControl
+# End time: 10:36:07 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:08 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture Behavioral of control
+# End time: 10:36:08 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:08 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ctr_unit_tb
+# -- Compiling architecture Stimulus of ctr_unit_tb
+# ** Error: (vcom-11) Could not find work.controlunit.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd(29): (vcom-1195) Cannot find expanded name "work.ControlUnit".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd(29): Unknown expanded name.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/ctr_unit_tb.vhd(62): VHDL Compiler exiting
+# End time: 10:36:08 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/data_memory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:09 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/data_memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_memory
+# -- Compiling architecture RTL of data_memory
+# End time: 10:36:09 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:09 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# ** Error: (vcom-11) Could not find work.pc.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(60): (vcom-1195) Cannot find expanded name "work.pc".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(60): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.imemory.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(67): (vcom-1195) Cannot find expanded name "work.IMemory".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(67): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.signal_extender.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(75): (vcom-1195) Cannot find expanded name "work.signal_extender".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(75): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.mux.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(82): (vcom-1195) Cannot find expanded name "work.mux".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(82): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.registers.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(92): (vcom-1195) Cannot find expanded name "work.registers".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(92): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.mux.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(108): (vcom-1195) Cannot find expanded name "work.mux".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(108): Unknown expanded name.
+# -- Loading entity alu
+# ** Error: (vcom-11) Could not find work.mux.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(129): (vcom-1195) Cannot find expanded name "work.mux".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(129): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.dmemory.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/datapath.vhd(141): (vcom-1195) Cannot find expanded name "work.DMemory".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(141): Unknown expanded name.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath.vhd(151): VHDL Compiler exiting
+# End time: 10:36:09 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:10 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/memory_cheat.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_cheat
+# -- Compiling architecture b of memory_cheat
+# End time: 10:36:10 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:12 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# ** Error: (vcom-11) Could not find work.controlunit.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/interconnect.vhd(97): (vcom-1195) Cannot find expanded name "work.ControlUnit".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/interconnect.vhd(97): Unknown expanded name.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/interconnect.vhd(112): VHDL Compiler exiting
+# End time: 10:36:12 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/instruction_split.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:12 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/instruction_split.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity instruction_split
+# -- Compiling architecture Behavioral of instruction_split
+# End time: 10:36:12 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:13 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IMemory
+# -- Compiling architecture Behavioral of IMemory
+# End time: 10:36:13 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:13 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DMemory_tb
+# -- Compiling architecture testbench of DMemory_tb
+# ** Error: (vcom-11) Could not find work.dmemory.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd(80): (vcom-1195) Cannot find expanded name "work.DMemory".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd(80): Unknown expanded name.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd(89): VHDL Compiler exiting
+# End time: 10:36:13 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:14 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DMemory
+# -- Compiling architecture Behavioral of DMemory
+# End time: 10:36:14 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:14 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 10:36:14 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/memory_junction.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:15 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/memory_junction.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_junction
+# -- Compiling architecture struct of memory_junction
+# -- Loading entity data_memory
+# End time: 10:36:15 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/mux.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:16 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux
+# -- Compiling architecture Behavioral of mux
+# End time: 10:36:16 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/muxreg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:17 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/muxreg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity muxreg
+# -- Compiling architecture b of muxreg
+# End time: 10:36:17 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:17 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 10:36:17 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/register.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:18 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity regimemory
+# -- Compiling architecture RTL of regimemory
+# ** Error: /home/duarte/repo/LSD_MICRO/src/register.vhd(35): (vcom-1136) Unknown identifier "clk".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/register.vhd(35): Expression is not a signal.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/register.vhd(32): (vcom-1272) Length of expected is 6; length of actual is 5.
+# ** Warning: /home/duarte/repo/LSD_MICRO/src/register.vhd(38): (vcom-1272) Length of expected is 6; length of actual is 32.
+# ** Warning: /home/duarte/repo/LSD_MICRO/src/register.vhd(40): (vcom-1272) Length of expected is 32; length of actual is 6.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/register.vhd(44): VHDL Compiler exiting
+# End time: 10:36:18 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 2
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/registers.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:18 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture Behavioral of registers
+# End time: 10:36:18 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:19 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers_tb
+# -- Compiling architecture TB of registers_tb
+# -- Loading entity registers
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(25): (vcom-1272) Length of formal "RA1" is 3; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(26): (vcom-1272) Length of formal "RA2" is 3; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(29): (vcom-1272) Length of formal "RD1" is 8; length of actual is 32.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(30): (vcom-1272) Length of formal "RD2" is 8; length of actual is 32.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(27): (vcom-1272) Length of formal "WA" is 3; length of actual is 32.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(28): (vcom-1272) Length of formal "WD" is 8; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(49): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(50): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(54): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(55): (vcom-1272) Length of expected is 5; length of actual is 32.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(59): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error (suppressible): /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(60): (vcom-1272) Length of expected is 32; length of actual is 5.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/registers_tb.vhd(64): VHDL Compiler exiting
+# End time: 10:36:19 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/signal_extender.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:20 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/signal_extender.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity signal_extender
+# -- Compiling architecture Behavioral of signal_extender
+# End time: 10:36:20 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:21 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity SingleCycleCpu
+# -- Compiling architecture struct of SingleCycleCpu
+# ** Warning: /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd(47): (vcom-103) Extended identifier "\" terminates at a newline character (0x0a).
+# ** Warning: /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd(47): (vcom-104) Extended identifier "\\" contains no graphic characters.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/SingleCycleCpu.vhd(47): near "\\": (vcom-1576) expecting BEGIN.
+# End time: 10:36:21 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:24 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 10:36:24 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:31 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 10:36:31 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 10:36:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:40 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 10:36:40 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:44 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 10:36:44 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# vsim work.interconnect_tb 
+# Start time: 10:36:45 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# ** Error: (vsim-3170) Could not find 'datapath(struct)'.
+#         Searched libraries:
+#             /home/duarte/repo/LSD_MICRO/simulation/modelsim/rtl_work
+# Load interrupted
+# Error loading design
+# End time: 10:36:45 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:53 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# End time: 10:36:53 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:36:59 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 10:36:59 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.memory_cheat
+# vsim work.memory_cheat 
+# Start time: 10:37:01 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.memory_cheat(b)
+vsim work.interconnect_tb
+# End time: 10:37:07 on May 22,2020, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vsim work.interconnect_tb 
+# Start time: 10:37:07 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+add wave -position end sim:/interconnect_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+run
+run
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 204 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:18:29 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 11:18:29 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:18:35 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 11:18:35 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 11:18:46 on May 22,2020, Elapsed time: 0:41:39
+# Errors: 14, Warnings: 13, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 11:18:46 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/datapath_tb/clk
+add wave -position end  sim:/datapath_tb/DUT/EnPC
+add wave -position end  sim:/datapath_tb/DUT/RegWr
+add wave -position end  sim:/datapath_tb/DUT/RegDst
+add wave -position end  sim:/datapath_tb/DUT/AluSrc
+add wave -position end  sim:/datapath_tb/DUT/MemtoReg
+add wave -position end  sim:/datapath_tb/DUT/MemWr
+add wave -position end  sim:/datapath_tb/DUT/RI
+add wave -position end  sim:/datapath_tb/DUT/clk
+add wave -position end  sim:/datapath_tb/DUT/AluOp
+add wave -position end  sim:/datapath_tb/DUT/inst
+add wave -position end  sim:/datapath_tb/DUT/s_inst
+add wave -position end  sim:/datapath_tb/DUT/s_inst_addr
+add wave -position end  sim:/datapath_tb/DUT/s_sig_extended
+add wave -position end  sim:/datapath_tb/DUT/s_WA
+add wave -position end  sim:/datapath_tb/DUT/s_MemtoRegData
+add wave -position end  sim:/datapath_tb/DUT/s_OP2
+add wave -position end  sim:/datapath_tb/DUT/s_res
+add wave -position end  sim:/datapath_tb/DUT/s_RD1
+add wave -position end  sim:/datapath_tb/DUT/s_RD2
+add wave -position end  sim:/datapath_tb/DUT/s_RD
+add wave -position end  sim:/datapath_tb/DUT/s_ENPC
+add wave -position end  sim:/datapath_tb/DUT/s_RegWr
+add wave -position end  sim:/datapath_tb/DUT/s_ALUSrc
+add wave -position end  sim:/datapath_tb/DUT/s_RegDst
+add wave -position end  sim:/datapath_tb/DUT/s_MemWr
+add wave -position end  sim:/datapath_tb/DUT/s_MemtoReg
+add wave -position end  sim:/datapath_tb/DUT/s_RI
+add wave -position end  sim:/datapath_tb/DUT/s_clk
+add wave -position end  sim:/datapath_tb/DUT/s_aluOp
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Fatal: (vsim-3734) Index value 255 is out of range 0 to 7.
+#    Time: 20 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(77): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(78): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(78): (vcom-1136) Unknown identifier "opcode".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(79): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(79): (vcom-1136) Unknown identifier "func".
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# ** Error: /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd(178): VHDL Compiler exiting
+# End time: 11:28:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:29:43 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 11:29:43 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 11:29:46 on May 22,2020, Elapsed time: 0:11:00
+# Errors: 25, Warnings: 2, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 11:29:46 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 440 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 610 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 880 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 880 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1320 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1320 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1490 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1760 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1760 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1930 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1930 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2200 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2370 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2370 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:48 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 11:31:48 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:31:53 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 11:31:53 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 11:31:56 on May 22,2020, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 29, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 11:31:56 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Fatal: (vsim-3734) Index value 255 is out of range 0 to 7.
+#    Time: 80 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -continue
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+# Break key hit
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:59:16 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 11:59:16 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:59:19 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 11:59:19 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:59:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# End time: 11:59:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:59:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 11:59:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:59:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 11:59:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 11:59:44 on May 22,2020, Elapsed time: 0:27:48
+# Errors: 11, Warnings: 10, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 11:59:44 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/*
+add wave -position end sim:/datapath_tb/DUT/*
+add wave -position end sim:/datapath_tb/DUT/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+run
+run
+run
+run -all
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:05:46 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:05:46 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:05:51 on May 22,2020, Elapsed time: 0:06:07
+# Errors: 2, Warnings: 12, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:05:51 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 42 ns  Iteration: 4  Instance: /interconnect_tb/DUT/alu
+run
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 180 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:09:56 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 12:09:56 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:10:00 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 12:10:00 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:10:06 on May 22,2020, Elapsed time: 0:04:15
+# Errors: 5, Warnings: 14, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:10:06 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 12 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 42 ns  Iteration: 4  Instance: /interconnect_tb/DUT/alu
+run
+run
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 204 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:12:50 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# ** Error: /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd(52): Cannot drive signal 'clk' of mode IN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd(53): Cannot drive signal 'rst' of mode IN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd(54): Cannot drive signal 'opcode' of mode IN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd(55): Cannot drive signal 'func' of mode IN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd(121): VHDL Compiler exiting
+# End time: 12:12:50 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vsim work.interconnect_tb
+# End time: 12:12:53 on May 22,2020, Elapsed time: 0:02:47
+# Errors: 12, Warnings: 14, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:12:53 on May 22,2020
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.interconnect_tb(testbench) because work.controlunit has changed.
+# Error loading design
+# End time: 12:12:53 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:13:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# vsim work.interconnect_tb 
+# Start time: 12:13:37 on May 22,2020
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.interconnect_tb(testbench) because work.controlunit has changed.
+# Error loading design
+# End time: 12:13:37 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:13:40 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:13:40 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# vsim work.interconnect_tb 
+# Start time: 12:13:43 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 5760 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vsim work.dmemory
+# End time: 12:16:40 on May 22,2020, Elapsed time: 0:02:57
+# Errors: 2, Warnings: 21, Suppressed Warnings: 10
+# vsim work.dmemory 
+# Start time: 12:16:40 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+vcom -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:46 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DMemory_tb
+# -- Compiling architecture testbench of DMemory_tb
+# -- Loading entity DMemory
+# End time: 12:16:46 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:48 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:16:49 on May 22,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:51 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:16:51 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:16:55 on May 22,2020, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim work.interconnect_tb 
+# Start time: 12:16:55 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1560 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:28:12 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:28:12 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:28:16 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:28:16 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:28:19 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:28:19 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:53 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:36:53 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:56 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:36:56 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:37:00 on May 22,2020, Elapsed time: 0:20:05
+# Errors: 4, Warnings: 21, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:37:00 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/interconnect_tb/EnPC
+add wave -position end  sim:/interconnect_tb/RegWr
+add wave -position end  sim:/interconnect_tb/RegDst
+add wave -position end  sim:/interconnect_tb/AluSrc
+add wave -position end  sim:/interconnect_tb/MemtoReg
+add wave -position end  sim:/interconnect_tb/MemWr
+add wave -position end  sim:/interconnect_tb/RI
+add wave -position end  sim:/interconnect_tb/clk
+add wave -position end  sim:/interconnect_tb/AluOp
+add wave -position end  sim:/interconnect_tb/inst
+add wave -position end  sim:/interconnect_tb/rst
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+run -continue
+run -continue
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+run
+run -continue
+run -all
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+add wave -position end sim:/interconnect_tb/DUT/*
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+# Break key hit
+# Break key hit
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+# Break key hit
+env ..
+# sim:/interconnect_tb/DUT/IMemory
+restart
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:18 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:50:18 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:22 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:50:23 on May 22,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:25 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:50:25 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:50:27 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:50:27 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:50:28 on May 22,2020, Elapsed time: 0:13:28
+# Errors: 8, Warnings: 41, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:50:28 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/CLK_GEN/*
+# (vish-4014) No objects found matching '/interconnect_tb/CLK_GEN/*'.
+add wave -position end sim:/interconnect_tb/CLK_GEN/*
+# (vish-4014) No objects found matching '/interconnect_tb/CLK_GEN/*'.
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run -continue
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1560 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:50 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 12:59:50 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:59:52 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 12:59:52 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 12:59:54 on May 22,2020, Elapsed time: 0:09:26
+# Errors: 5, Warnings: 21, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 12:59:54 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1560 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:39 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(86): VHDL Compiler exiting
+# End time: 13:02:39 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:02:43 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(86): VHDL Compiler exiting
+# End time: 13:02:43 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:10:38 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(18): near ":": (vcom-1576) expecting IDENTIFIER.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(24): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(24): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): (vcom-1136) Unknown identifier "opcode".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Illegal sequential statement.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Type conversion (to ieee.NUMERIC_STD.UNSIGNED) conflicts with expected type (error).
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(27): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(29): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(31): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(31): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(31): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(31): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(33): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(33): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(33): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(33): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(35): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(35): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(35): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(35): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(37): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(37): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(37): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(39): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(39): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(39): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(41): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(41): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(43): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(43): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(43): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(43): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(45): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(45): (vcom-1136) Unknown identifier "s_op1".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(45): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(45): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(47): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(47): (vcom-1136) Unknown identifier "s_op2".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(47): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(50): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(50): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(52): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(52): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(56): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(56): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(58): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(58): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(62): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(62): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(64): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(64): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(68): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(68): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(70): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(70): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(74): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(74): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(76): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(79): Illegal target for signal assignment.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(79): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(83): (vcom-1136) Unknown identifier "s_result".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(84): VHDL Compiler exiting
+# End time: 13:10:38 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 73, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:09 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): (vcom-1136) Unknown identifier "opcode".
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Illegal sequential statement.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(39): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(41): Type error resolving infix expression "*" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(47): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BIT_VECTOR' to 'ieee.NUMERIC_STD.UNSIGNED' (array element type difference).
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(84): VHDL Compiler exiting
+# End time: 13:11:09 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:11:29 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(25): Illegal sequential statement.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(39): near ";": (vcom-1576) expecting ')'.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(41): Type error resolving infix expression "*" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(47): ** Error: (vcom-1583) Illegal type converson from 'std.STANDARD.BIT_VECTOR' to 'ieee.NUMERIC_STD.UNSIGNED' (array element type difference).
+# ** Error: /home/duarte/repo/LSD_MICRO/src/alu.vhd(84): VHDL Compiler exiting
+# End time: 13:11:29 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:36 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 13:39:36 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:41 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 13:39:41 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 13:39:43 on May 22,2020, Elapsed time: 0:39:49
+# Errors: 102, Warnings: 21, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 13:39:43 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /interconnect_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/DUT/registers
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1560 ns  Iteration: 2  Process: /interconnect_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vsim work.datapath_tb
+# End time: 13:45:18 on May 22,2020, Elapsed time: 0:05:35
+# Errors: 2, Warnings: 21, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 13:45:18 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Fatal: (vsim-3734) Index value 255 is out of range 0 to 7.
+#    Time: 80 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vsim work.pc
+# End time: 13:46:16 on May 22,2020, Elapsed time: 0:00:58
+# Errors: 2, Warnings: 10, Suppressed Warnings: 10
+# vsim work.pc 
+# Start time: 13:46:16 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.pc(behavioral)
+# WARNING: No extended dataflow license exists
+vcom -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:26 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 13:46:26 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 13:46:30 on May 22,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1
+# vsim work.datapath_tb 
+# Start time: 13:46:30 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:51:49 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 13:51:49 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:51:52 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# End time: 13:51:52 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 13:51:58 on May 22,2020, Elapsed time: 0:05:28
+# Errors: 2, Warnings: 12, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 13:51:58 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+add wave -position 9 sim:/datapath_tb/DUT/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:02:47 on May 22,2020
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping entity alu
+# -- Skipping entity alucontrol
+# -- Skipping entity control
+# -- Skipping entity controlunit
+# -- Skipping entity ctr_unit_tb
+# -- Skipping entity data_memory
+# -- Skipping entity datapath
+# -- Skipping entity datapath_tb
+# -- Skipping entity dmemory
+# -- Skipping entity dmemory_tb
+# -- Skipping entity imemory
+# -- Skipping entity interconnect_tb
+# -- Skipping entity memory_cheat
+# -- Skipping entity memory_junction
+# -- Skipping entity mux
+# -- Skipping entity muxreg
+# -- Skipping entity pc
+# -- Skipping entity regimemory
+# -- Skipping entity registers
+# -- Skipping entity registers_tb
+# -- Skipping entity signal_extender
+# -- Skipping entity singlecyclecpu
+# End time: 14:02:47 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:02:47 on May 22,2020
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity aluControl
+# -- Compiling architecture behavioral of aluControl
+# -- Compiling entity control
+# -- Compiling architecture Behavioral of control
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# -- Compiling entity ctr_unit_tb
+# -- Compiling entity data_memory
+# -- Compiling architecture RTL of data_memory
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading entity datapath
+# -- Compiling entity DMemory
+# -- Compiling architecture Behavioral of DMemory
+# -- Compiling entity DMemory_tb
+# -- Compiling architecture testbench of DMemory_tb
+# -- Loading entity DMemory
+# -- Compiling entity IMemory
+# -- Compiling architecture Behavioral of IMemory
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading entity ControlUnit
+# -- Compiling entity memory_cheat
+# -- Compiling architecture b of memory_cheat
+# -- Compiling entity memory_junction
+# -- Compiling architecture struct of memory_junction
+# -- Loading entity data_memory
+# -- Compiling entity mux
+# -- Compiling architecture Behavioral of mux
+# -- Compiling entity muxreg
+# -- Compiling architecture b of muxreg
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# -- Compiling entity regimemory
+# -- Compiling entity registers
+# -- Compiling architecture Behavioral of registers
+# -- Compiling entity registers_tb
+# -- Compiling entity signal_extender
+# -- Compiling architecture Behavioral of signal_extender
+# -- Compiling entity SingleCycleCpu
+# End time: 14:02:47 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:02:51 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 14:02:51 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:02:55 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 14:02:55 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:03:00 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 14:03:00 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dmemory_tb
+# End time: 14:03:44 on May 22,2020, Elapsed time: 0:11:46
+# Errors: 4, Warnings: 12, Suppressed Warnings: 10
+# vsim work.dmemory_tb 
+# Start time: 14:03:44 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.dmemory_tb(testbench)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/dmemory_tb/*
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:03:55 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 14:03:55 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 14:03:57 on May 22,2020, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# vsim work.datapath_tb 
+# Start time: 14:03:57 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run -continue
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:35 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 14:06:35 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:37 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/DMemory_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DMemory_tb
+# -- Compiling architecture testbench of DMemory_tb
+# -- Loading entity DMemory
+# End time: 14:06:37 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:06:40 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 14:06:40 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 14:06:43 on May 22,2020, Elapsed time: 0:02:46
+# Errors: 3, Warnings: 12, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 14:06:43 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+vsim work.datapath_tb
+# End time: 14:09:01 on May 22,2020, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 1
+# vsim work.datapath_tb 
+# Start time: 14:09:01 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+vcom -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:10:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/datapath_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath_tb
+# -- Compiling architecture testbench of datapath_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# End time: 14:10:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 14:10:37 on May 22,2020, Elapsed time: 0:01:36
+# Errors: 2, Warnings: 12, Suppressed Warnings: 10
+# vsim work.datapath_tb 
+# Start time: 14:10:37 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/datapath_tb/DUT/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 40 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 80 ns  Iteration: 2  Instance: /datapath_tb/DUT/registers
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+# Break key hit
+vcom -work work /home/duarte/repo/LSD_MICRO/src/registers.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:13:57 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture Behavioral of registers
+# End time: 14:13:57 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.registers
+# End time: 14:13:59 on May 22,2020, Elapsed time: 0:03:22
+# Errors: 2, Warnings: 12, Suppressed Warnings: 10
+# vsim work.registers 
+# Start time: 14:13:59 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.registers(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/registers/*
+vsim work.datapath_tb
+# End time: 14:14:19 on May 22,2020, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# vsim work.datapath_tb 
+# Start time: 14:14:19 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.datapath_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# WARNING: No extended dataflow license exists
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /datapath_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 0 ps  Iteration: 2  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 170 ns  Iteration: 3  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 5  Instance: /datapath_tb/DUT/alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 6  Instance: /datapath_tb/DUT/alu
+# ** Fatal: (vsim-3734) Index value 8 is out of range 0 to 7.
+#    Time: 1200 ns  Iteration: 2  Process: /datapath_tb/DUT/IMemory/line__32 File: /home/duarte/repo/LSD_MICRO/src/IMemory.vhd
+# Fatal error in Process line__32 at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd line 36
+# 
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/duarte/repo/LSD_MICRO/src/IMemory.vhd 36 Process line__32
+# 
+#  Trace back: invalid command name "..bgerrorDialog.button3"
+#     while executing
+# "..bgerrorDialog.button3 invoke"
+#     ("after" script)
+#    <2:/opt/altera/19.1/modelsim_ase/linuxaloem/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name "..bgerrorDialog.button3"}
+#    <1:eval:331: ::tk::dialog::error::bgerror {invalid command name "..bgerrorDialog.button3"}
+vcom -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:19:27 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repo/LSD_MICRO/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 14:19:27 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 14:19:29 on May 22,2020, Elapsed time: 0:05:10
+# Errors: 3, Warnings: 12, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 14:19:29 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/interconnect_tb/DUT/EnPC
+add wave -position end  sim:/interconnect_tb/DUT/RegWr
+add wave -position end  sim:/interconnect_tb/DUT/RegDst
+add wave -position end  sim:/interconnect_tb/DUT/AluSrc
+add wave -position end  sim:/interconnect_tb/DUT/MemtoReg
+add wave -position end  sim:/interconnect_tb/DUT/MemWr
+add wave -position end  sim:/interconnect_tb/DUT/RI
+add wave -position end  sim:/interconnect_tb/DUT/clk
+add wave -position end  sim:/interconnect_tb/DUT/AluOp
+add wave -position end  sim:/interconnect_tb/DUT/inst
+add wave -position end  sim:/interconnect_tb/DUT/s_inst
+add wave -position end  sim:/interconnect_tb/DUT/s_inst_addr
+add wave -position end  sim:/interconnect_tb/DUT/s_sig_extended
+add wave -position end  sim:/interconnect_tb/DUT/s_WA
+add wave -position end  sim:/interconnect_tb/DUT/s_MemtoRegData
+add wave -position end  sim:/interconnect_tb/DUT/s_OP2
+add wave -position end  sim:/interconnect_tb/DUT/s_res
+add wave -position end  sim:/interconnect_tb/DUT/s_RD1
+add wave -position end  sim:/interconnect_tb/DUT/s_RD2
+add wave -position end  sim:/interconnect_tb/DUT/s_RD
+add wave -position end  sim:/interconnect_tb/DUT/s_ENPC
+add wave -position end  sim:/interconnect_tb/DUT/s_RegWr
+add wave -position end  sim:/interconnect_tb/DUT/s_ALUSrc
+add wave -position end  sim:/interconnect_tb/DUT/s_RegDst
+add wave -position end  sim:/interconnect_tb/DUT/s_MemWr
+add wave -position end  sim:/interconnect_tb/DUT/s_MemtoReg
+add wave -position end  sim:/interconnect_tb/DUT/s_RI
+add wave -position end  sim:/interconnect_tb/DUT/s_clk
+add wave -position end  sim:/interconnect_tb/DUT/s_aluOp
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*

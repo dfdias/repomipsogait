@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity ctr_unit_tb is 
+end ;
+
+
+architecture stim of ctr_unit_tb  is
+	signal 	clk, rst	:	std_logic;
+	signal 	opcode 	: 	std_logic_vector(2 downto 0);
+	signal 	func	 	:	std_logic_vector(3 downto 0);
+	signal 	EnPC		:	std_logic;
+	signal	RI			:	std_logic;
+	signal	RegWr		:	std_logic;
+	signal	RegDst	:	std_logic;
+	signal	ALUSrc	:	std_logic;
+	signal	ALUOp		:	std_logic_vector(3 downto 0);
+		  
+	signal	MemWr		:	std_logic;
+	signal	MemtoReg	:	std_logic;	
+begin
+
+clock_proc : process
+	begin 
+		clk <= '1';	wait for 10 ns;
+		clk <= '0'; wait for 10 ns;
+	end process ;
+	
+uut : entity work.ControlUnit(Behave)
+		  port map(
+		  clk			=> clk,
+		  rst			=> rst,
+		  func		=> func,
+		  opcode		=> opcode,
+		  EnPC		=> EnPC,
+		  RI			=> RI,
+		  RegWr		=> RegWr,
+		  RegDst		=> RegDst,
+		  ALUSrc		=>	ALUSrc,
+		  
+		  ALUOp		=>	ALUOp,
+		  
+		  MemWr		=>	MemWr,
+		  MemtoReg	=>	MemtoReg);
+		
+dut : process
+begin
+	rst <= '1';
+	wait for 10 ns;
+	opcode <= "001";
+	func <= "0000";
+	wait for 100 ns;
+end process;
+	
+						
+end architecture;

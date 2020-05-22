@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity DMemory is				--will work as a dual port ram.
+
+port(
+
+
+	RA1					:	in std_logic_vector(15 downto 0);
+	RA2					:	in std_logic_vector(15 downto 0);
+
+
+
+	RD1					:	out std_logic_vector(7 downto 0);
+	RD2					:	out std_logic_vector(7 downto 0);
+	
+	WA						:	in std_logic_vector(2 downto 0);	
+	
+	WD 					:	in std_logic_vector(7 downto 0);
+
+	WE						:	in std_logic  --control bit defines the data direction on the register
+
+
+	); 
+
+end registers;
+
+architecture RTL of registers is
+
+type reg is array (0 to 7 ) of std_logic_vector(7 downto 0);
+signal s_ram : reg;
+
+signal s_addr1,s_addr2 : std_logic_vector(2 downto 0);
+
+begin
+	s_addr1 <= RA1(12 downto 10);
+	s_addr2 <= RA2(9 downto 7);
+	
+memory_IO: process(WE)
+begin	
+
+		if (WE = '1')then
+			s_ram(to_integer(unsigned(WA))) <= WD;
+			RD1 <= X"00";
+			RD2 <= X"00";
+			else
+			RD1 <= s_ram(to_integer(unsigned(s_addr1)));
+			RD2 <= s_ram(to_integer(unsigned(s_addr2)));
+		end if;
+end process;
+
+end RTL;
