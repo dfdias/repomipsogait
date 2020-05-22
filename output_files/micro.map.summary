@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Fri May 22 02:38:37 2020
+Analysis & Synthesis Status : Successful - Fri May 22 19:43:37 2020
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : micro
-Top-level Entity Name : alu
+Top-level Entity Name : datapath
 Family : Cyclone IV E
-Total logic elements : 179
-    Total combinational functions : 179
-    Dedicated logic registers : 0
-Total registers : 0
+Total logic elements : 19
+    Total combinational functions : 16
+    Dedicated logic registers : 19
+Total registers : 19
 Total pins : 28
 Total virtual pins : 0
 Total memory bits : 0
-Embedded Multiplier 9-bit elements : 2
+Embedded Multiplier 9-bit elements : 0
 Total PLLs : 0

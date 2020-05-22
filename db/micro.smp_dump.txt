@@ -1,4 +1,13 @@
 
+State Machine - |ControlUnit|op
+Name op.INVALID op.LW op.SW op.ADDI op.ARITH op.NOP 
+op.NOP 0 0 0 0 0 0 
+op.ARITH 0 0 0 0 1 1 
+op.ADDI 0 0 0 1 0 1 
+op.SW 0 0 1 0 0 1 
+op.LW 0 1 0 0 0 1 
+op.INVALID 1 0 0 0 0 1 
+
 State Machine - |ControlUnit|PS
 Name PS.WriteMem PS.RegUpdate PS.Execute PS.Decode PS.Fetch PS.Reset 
 PS.Reset 0 0 0 0 0 0 

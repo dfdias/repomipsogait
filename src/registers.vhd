@@ -28,8 +28,6 @@ begin
 		if rising_edge(clk) then
 			if (WE = '1')then
 				s_ram(to_integer(unsigned(WA))) <= WD;
-				RD1 <= s_ram(to_integer(unsigned(RA1)));
-				RD2 <= s_ram(to_integer(unsigned(RA2)));
 			end if;
 		end if;
 	end process;		

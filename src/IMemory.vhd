@@ -3,9 +3,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity IMemory is
-	 port ( clk	: in std_logic;
+	 port ( 
 			  EN 	: in  std_logic;
-           RA 	: in  std_logic_vector(7 downto 0);
+           	  RA 	: in  std_logic_vector(7 downto 0);
 			  RD 	: out std_logic_vector(15 downto 0));
 end IMemory;
 
@@ -29,12 +29,10 @@ architecture Behavioral of IMemory is
 	--SGU $0, $3, $2		  001			000		 011		 010		 1111 --- duvidas 
 	
 begin
-	process(EN,clk)
+	process(EN)
 		begin
-			if (rising_edge(clk)) then
-				if	(EN = '1') then 
-					RD <= rom(to_integer(unsigned(RA)));
-				end if;
+			if(EN = '1') then 
+				RD <= rom(to_integer(unsigned(RA(2 downto 0))));
 			end if;
 	end process;
 end Behavioral;

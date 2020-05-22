@@ -16,13 +16,13 @@ end alu;
 architecture Behavioral of alu is
 
 signal s_result  : std_logic_vector(size-1 downto 0);
-signal s_resultaux : integer;
+signal s_resultaux : integer  := 0;
 
 
 begin
 operations: process(aluOp,op1,op2,s_resultaux)
 begin
-
+	
    if(aluOp = "0000") then
 		s_resultaux <= to_integer(unsigned(op1)) + to_integer(unsigned(op2));
 		s_result <= std_logic_vector(to_signed(s_resultaux,8));

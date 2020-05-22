@@ -4,115 +4,79 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "result[0]",
+					"name" : "inst[0]",
 					"strict" : false
 				},
 				{
-					"name" : "result[1]",
+					"name" : "inst[1]",
 					"strict" : false
 				},
 				{
-					"name" : "result[2]",
+					"name" : "inst[2]",
 					"strict" : false
 				},
 				{
-					"name" : "result[3]",
+					"name" : "inst[3]",
 					"strict" : false
 				},
 				{
-					"name" : "result[4]",
+					"name" : "inst[4]",
 					"strict" : false
 				},
 				{
-					"name" : "result[5]",
+					"name" : "inst[5]",
 					"strict" : false
 				},
 				{
-					"name" : "result[6]",
+					"name" : "inst[6]",
 					"strict" : false
 				},
 				{
-					"name" : "result[7]",
+					"name" : "inst[7]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[2]",
+					"name" : "inst[8]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[0]",
+					"name" : "inst[9]",
 					"strict" : false
 				},
 				{
-					"name" : "op2[1]",
+					"name" : "inst[10]",
 					"strict" : false
 				},
 				{
-					"name" : "op2[0]",
+					"name" : "inst[11]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[3]",
+					"name" : "inst[12]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[1]",
+					"name" : "inst[13]",
 					"strict" : false
 				},
 				{
-					"name" : "op2[2]",
+					"name" : "inst[14]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[5]",
+					"name" : "inst[15]",
 					"strict" : false
 				},
 				{
-					"name" : "op1[4]",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "op1[7]",
+					"name" : "RI",
 					"strict" : false
 				},
 				{
-					"name" : "op1[6]",
-					"strict" : false
-				},
-				{
-					"name" : "op2[7]",
-					"strict" : false
-				},
-				{
-					"name" : "op2[3]",
-					"strict" : false
-				},
-				{
-					"name" : "op2[4]",
-					"strict" : false
-				},
-				{
-					"name" : "op2[5]",
-					"strict" : false
-				},
-				{
-					"name" : "op2[6]",
-					"strict" : false
-				},
-				{
-					"name" : "aluOp[0]",
-					"strict" : false
-				},
-				{
-					"name" : "aluOp[1]",
-					"strict" : false
-				},
-				{
-					"name" : "aluOp[2]",
-					"strict" : false
-				},
-				{
-					"name" : "aluOp[3]",
+					"name" : "EnPC",
 					"strict" : false
 				}
 			]

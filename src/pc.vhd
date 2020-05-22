@@ -4,21 +4,26 @@ use ieee.std_logic_arith.all;
 
 entity pc is
 
-	port( EN 	:	in 	std_logic;
-			Cnt	:	out	std_logic_vector(7 downto 0)
-		 );
+	port(
+		rst : in  std_logic;
+		clk : in  std_logic;
+		EN  : in  std_logic;
+		Cnt : out std_logic_vector(7 downto 0)
+	);
 end pc;
 
 architecture Behavioral of pc is
-signal addr : unsigned(7 downto 0) := (others => '0');
+	signal addr : unsigned(7 downto 0);
 begin
-process(EN)
+	process(EN,clk)
 	begin
-		--if rst = '1' then
-			--Cnt <= (others => '0');
-		if rising_edge(EN) then 
-			addr <= addr + '1';	
+		if rst = '1' then
+			addr <= (others => '0');
+		elsif rising_edge(clk) then
+			if (EN = '1') then
+				addr <= addr + '1';
+			end if;
 		end if;
 	end process;
-		Cnt <= std_logic_vector(addr);
+	Cnt <= std_logic_vector(addr);
 end Behavioral;

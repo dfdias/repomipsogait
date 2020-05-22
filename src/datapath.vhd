@@ -7,15 +7,19 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity datapath is
 
-	port(EnPC : in std_logic;
+	port(
+		clk      : in  std_logic;
+		rst 	 : in  std_logic;
+		
+		EnPC 	 : in  std_logic;
 		RegWr    : in  std_logic;
 		RegDst   : in  std_logic;
 		AluSrc   : in  std_logic;
 		MemtoReg : in  std_logic;
 		MemWr    : in  std_logic;
 		RI       : in  std_logic;
-		clk      : in  std_logic;
 		AluOp    : in  std_logic_vector(3 downto 0);
+		
 		inst     : out std_logic_vector(15 downto 0));
 
 end ;
@@ -59,6 +63,8 @@ begin
 	--instruction  fetch area
 	pc : entity work.pc(Behavioral) --program counter
 		port map (
+			rst => rst,
+			clk => s_clk,
 			EN  => s_ENPC,
 			cnt => s_inst_addr
 		);
@@ -68,8 +74,7 @@ begin
 		port map(
 			EN  => s_RI,
 			RA  => s_inst_addr,
-			RD  => s_inst,
-			clk => s_clk
+			RD  => s_inst
 		);
 	--signal extension
 	SIG_EXTENDER : entity work.signal_extender(Behavioral)

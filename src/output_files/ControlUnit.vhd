@@ -25,31 +25,37 @@ end ControlUnit;
 architecture Behavioral of ControlUnit is
 
 	TYPE state IS (Reset, Fetch, Decode, Execute, RegUpdate, WriteMem);
-
 	signal PS, NS : state;
 
-	type optype IS (NOP,ARITH,ADDI,SW,LW);
-	signal op,op_next : optype := NOP;
+	type optype IS (NOP,ARITH,ADDI,SW,LW,INVALID);
+	signal op, op_next            : optype ;
+	signal s_opcode,s_opcode_next : std_logic_vector(2 downto 0);
+
 begin
 	seq_proc : process(clk,PS,NS,rst)
 	begin
 		if rst = '1' then
 			PS <= Reset;
 		elsif rising_edge(clk) then
-			PS <= NS;
+			PS       <= NS;
+			s_opcode <= s_opcode_next;
+			op       <= op_next;
 		end if;
 	end process;
-	comb_proc : process(PS)
+	comb_proc : process(PS,s_opcode,op,func)
 	begin
-			NS       <= PS;
-			EnPC     <= '0';
-			RI       <= '0';
-			RegWr    <= '0';
-			RegDst   <= '0';
-			ALUSrc   <= '0';
-			ALUOp    <= (others => '0');
-			MemWr    <= '0';
-			MemtoReg <= '0';
+		NS            <= PS;
+		s_opcode_next <= s_opcode;
+		op_next       <= op;
+		EnPC          <= '0';
+		RI            <= '0';
+		RegWr         <= '0';
+		RegDst        <= '0';
+		ALUSrc        <= '0';
+		ALUOp         <= (others => '0');
+		MemWr         <= '0';
+		MemtoReg      <= '0';
+
 
 		case PS is
 			when Reset =>
@@ -61,23 +67,25 @@ begin
 				ALUOp    <= (others => '0');
 				MemWr    <= '0';
 				MemtoReg <= '0';
-
-				NS <= Fetch;
+				NS       <= Fetch;
 			when Fetch =>
-				RI   <= '1';
-				EnPC <= '1';
-				NS   <= Decode;
+				RI            <= '1';
+				EnPC          <= '1';
+				s_opcode_next <= opcode; --stores into flip flop
+				NS            <= Decode;
 			when Decode =>
-				if opcode = "000" then
-					op <= NOP;
-				elsif opcode = "001" then
-					op <= ARITH;
-				elsif opcode = "100" then
-					op <= ADDI;
-				elsif opcode = "110" then
-					op <= SW;
-				elsif opcode <= "111" then
-					op <= LW;
+				if s_opcode = "000" then
+					op_next <= NOP;
+				elsif s_opcode = "001" then
+					op_next <= ARITH;
+				elsif s_opcode = "100" then
+					op_next <= ADDI;
+				elsif s_opcode = "110" then
+					op_next <= SW;
+				elsif s_opcode <= "111" then
+					op_next <= LW;
+				else
+					op_next <= INVALID;
 				end if;
 				NS <= Execute;
 
@@ -102,15 +110,17 @@ begin
 						ALUSrc <= '1';
 						ALUOp  <= "0000";
 						NS     <= RegUpdate;
+					when INVALID =>
+						Null;
 				end case;
 			when RegUpdate =>
-				EnPC 	<= '0';--regupdate
-				RI 		<= '0';
-				RegWr 	<= '1';
-				RegDst 	<= '1';
+				EnPC     <= '0'; --regupdate
+				RI       <= '0';
+				RegWr    <= '1';
+				RegDst   <= '1';
 				MemtoReg <= '1';
-				ALUSrc 	<=	'1';
-				MemWr	<=	'0';
+				ALUSrc   <= '1';
+				MemWr    <= '0';
 				NS       <= Fetch ;
 
 			when WriteMem =>
@@ -118,6 +128,7 @@ begin
 				ALUSrc <= '1';
 				ALUOp  <= "0000";
 				NS     <= Fetch;
+
 		end case;
 	end process;
 end Behavioral;
