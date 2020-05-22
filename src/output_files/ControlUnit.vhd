@@ -32,7 +32,7 @@ architecture Behavioral of ControlUnit is
 	signal s_opcode,s_opcode_next : std_logic_vector(2 downto 0);
 
 begin
-	seq_proc : process(clk,PS,NS,rst)
+	seq_proc : process(clk,rst)
 	begin
 		if rst = '1' then
 			PS <= Reset;
@@ -42,7 +42,7 @@ begin
 			op       <= op_next;
 		end if;
 	end process;
-	comb_proc : process(PS,s_opcode,op,func)
+	comb_proc : process(PS,s_opcode,opcode,op,func)
 	begin
 		NS            <= PS;
 		s_opcode_next <= s_opcode;

@@ -4,71 +4,7 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "inst[0]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[1]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[2]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[3]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[4]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[5]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[6]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[7]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[8]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[9]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[10]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[11]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[12]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[13]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[14]",
-					"strict" : false
-				},
-				{
-					"name" : "inst[15]",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
+					"name" : "EnPC",
 					"strict" : false
 				},
 				{
@@ -76,7 +12,75 @@
 					"strict" : false
 				},
 				{
-					"name" : "EnPC",
+					"name" : "RegWr",
+					"strict" : false
+				},
+				{
+					"name" : "RegDst",
+					"strict" : false
+				},
+				{
+					"name" : "ALUSrc",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MemWr",
+					"strict" : false
+				},
+				{
+					"name" : "MemtoReg",
+					"strict" : false
+				},
+				{
+					"name" : "func[0]",
+					"strict" : false
+				},
+				{
+					"name" : "func[1]",
+					"strict" : false
+				},
+				{
+					"name" : "func[2]",
+					"strict" : false
+				},
+				{
+					"name" : "func[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[0]",
 					"strict" : false
 				}
 			]

@@ -6,7 +6,7 @@
 -- Author      : User Name <user.email@user.company.com>
 -- Company     : User Company Name
 -- Created     : Thu May 21 22:47:11 2020
--- Last update : Fri May 22 14:10:23 2020
+-- Last update : Fri May 22 21:06:18 2020
 -- Platform    : Default Part Number
 -- Standard    : <VHDL-2008 | VHDL-2002 | VHDL-1993 | VHDL-1987>
 --------------------------------------------------------------------------------
@@ -162,7 +162,7 @@ begin
 			EnPC     => EnPC,
 			RegWr    => RegWr,
 			RegDst   => RegDst,
-	
+			rst      => rst,
 			AluSrc   => AluSrc,
 			MemtoReg => MemtoReg,
 			MemWr    => MemWr,

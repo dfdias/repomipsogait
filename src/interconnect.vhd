@@ -6,7 +6,7 @@
 -- Author      : User Name <user.email@user.company.com>
 -- Company     : User Company Name
 -- Created     : Thu May 21 22:47:11 2020
--- Last update : Fri May 22 20:29:09 2020
+-- Last update : Fri May 22 22:09:40 2020
 -- Platform    : Default Part Number
 -- Standard    : <VHDL-2008 | VHDL-2002 | VHDL-1993 | VHDL-1987>
 --------------------------------------------------------------------------------
@@ -74,7 +74,7 @@ begin
 	rst <= '1';
 	wait for 50 ns;
 	rst <= '0';
-	wait for 600 ns;
+	wait for 1400 ns;
 	end process;
 	-----------------------------------------------------------
 	-- Entity Under Test
