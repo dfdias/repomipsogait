@@ -28,7 +28,7 @@ begin
 			s_resultaux <= to_integer(unsigned(op1)) + to_integer(unsigned(op2));
 			s_result    <= std_logic_vector(to_signed(s_resultaux,8));
 		elsif(aluOp = "0001") then
-			s_resultaux <= to_integer(signed(op1)) - to_integer(signed(op2));
+			s_resultaux <= to_integer(unsigned(op1)) - to_integer(unsigned(op2));
 			s_result    <= std_logic_vector(to_signed(s_resultaux,8));
 		elsif(aluOp = "0010") then
 			s_result <= op1 and op2;

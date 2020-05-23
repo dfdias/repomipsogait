@@ -646,3 +646,596 @@ vsim work.interconnect_tb
 # Loading work.dmemory(behavioral)
 # Loading work.controlunit(behavioral)
 # WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end  sim:/interconnect_tb/DUT/data_memory/s_ram
+add wave -position end  sim:/interconnect_tb/DUT/registers/s_ram
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+restart
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+vcom -work work /home/duarte/repomipsogait/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(75): (vcom-1484) Unknown formal identifier "clk".
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(157): VHDL Compiler exiting
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repomipsogait/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(75): (vcom-1484) Unknown formal identifier "clk".
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(157): VHDL Compiler exiting
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repomipsogait/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(75): (vcom-1484) Unknown formal identifier "clk".
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# ** Error: /home/duarte/repomipsogait/src/datapath.vhd(157): VHDL Compiler exiting
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repomipsogait/src/IMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/IMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IMemory
+# -- Compiling architecture Behavioral of IMemory
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:58:54 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 22:58:54 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mux
+# End time: 22:59:02 on May 22,2020, Elapsed time: 0:49:12
+# Errors: 9, Warnings: 9, Suppressed Warnings: 20
+# vsim work.mux 
+# Start time: 22:59:02 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux(behavioral)
+# WARNING: No extended dataflow license exists
+vcom -work work /home/duarte/repomipsogait/src/pc.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:10 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# End time: 22:59:10 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/IMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:14 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/IMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IMemory
+# -- Compiling architecture Behavioral of IMemory
+# End time: 22:59:14 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/IMemory.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:16 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/IMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IMemory
+# -- Compiling architecture Behavioral of IMemory
+# End time: 22:59:16 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/datapath.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:23 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity datapath
+# -- Compiling architecture struct of datapath
+# -- Loading entity pc
+# -- Loading entity IMemory
+# -- Loading entity signal_extender
+# -- Loading entity mux
+# -- Loading entity registers
+# -- Loading entity alu
+# -- Loading entity DMemory
+# End time: 22:59:23 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:27 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 22:59:27 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:43 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 23:00:43 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 23:00:49 on May 22,2020, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1
+# vsim work.interconnect_tb 
+# Start time: 23:00:49 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+add wave -position end  sim:/interconnect_tb/DUT/data_memory/s_ram
+add wave -position end sim:/interconnect_tb/DUT/registers/*
+add wave -position end sim:/interconnect_tb/DUT/IMemory/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:16 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 23:13:16 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.interconnect_tb
+# End time: 23:13:18 on May 22,2020, Elapsed time: 0:12:29
+# Errors: 0, Warnings: 15, Suppressed Warnings: 10
+# vsim work.interconnect_tb 
+# Start time: 23:13:18 on May 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+add wave -position end sim:/interconnect_tb/ControlUnit_1/*
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 4  Instance: /interconnect_tb/ControlUnit_1
+# Break key hit
+# Simulation stop requested.
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:20:26 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 23:20:26 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:20:30 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 23:20:30 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/interconnect.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:20:34 on May 22,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/interconnect.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity interconnect_tb
+# -- Compiling architecture testbench of interconnect_tb
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity datapath
+# -- Loading entity ControlUnit
+# End time: 23:20:34 on May 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.controlunit
+# End time: 00:26:59 on May 23,2020, Elapsed time: 1:13:41
+# Errors: 0, Warnings: 15, Suppressed Warnings: 10
+# vsim work.controlunit 
+# Start time: 00:26:59 on May 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:27:06 on May 23,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(118): Illegal sequential statement.
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(119): Illegal sequential statement.
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(132): VHDL Compiler exiting
+# End time: 00:27:07 on May 23,2020, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:28:14 on May 23,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(119): Illegal sequential statement.
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(120): Illegal sequential statement.
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(133): VHDL Compiler exiting
+# End time: 00:28:14 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:30:10 on May 23,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 00:30:10 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:30:14 on May 23,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 00:30:14 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:30:25 on May 23,2020
+# vcom -reportprogress 300 -work work /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(119): Illegal sequential statement.
+# ** Error: /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd(133): VHDL Compiler exiting
+# End time: 00:30:25 on May 23,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /opt/altera/19.1/modelsim_ase/linuxaloem/vcom failed.
+vsim work.interconnect_tb
+# End time: 01:01:38 on May 23,2020, Elapsed time: 0:34:39
+# Errors: 11, Warnings: 1
+# vsim work.interconnect_tb 
+# Start time: 01:01:38 on May 23,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.interconnect_tb(testbench)
+# Loading work.datapath(struct)
+# Loading work.pc(behavioral)
+# Loading work.imemory(behavioral)
+# Loading work.signal_extender(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.registers(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.dmemory(behavioral)
+# Loading work.controlunit(behavioral)
+# WARNING: No extended dataflow license exists
+add wave -position end sim:/interconnect_tb/DUT/*
+# parsing expression "main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+# parser is unable to recognize the expression
+# ** Error: (vish-4014) No objects found matching '.main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data'.
+# 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/data_memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /interconnect_tb/DUT/registers
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /interconnect_tb/DUT/alu
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 2  Instance: /interconnect_tb/ControlUnit_1
+# 
+# stdin: <EOF>

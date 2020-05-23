@@ -72,6 +72,7 @@ begin
 
 	IMemory : entity work.IMemory(Behavioral) --Instruction memory
 		port map(
+			clk => s_clk,
 			EN  => s_RI,
 			RA  => s_inst_addr,
 			RD  => s_inst

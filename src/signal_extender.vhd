@@ -10,6 +10,6 @@ end signal_extender;
 architecture Behavioral of signal_extender is
 
 begin 
-	extended(7) <= '0';
+	extended(7) <= unext(6);
 	extended(6 downto 0) <=  unext(6 downto 0);
 end Behavioral;

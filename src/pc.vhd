@@ -15,7 +15,7 @@ end pc;
 architecture Behavioral of pc is
 	signal addr : unsigned(7 downto 0);
 begin
-	process(EN,clk)
+	process(EN,clk,rst)
 	begin
 		if rst = '1' then
 			addr <= (others => '0');

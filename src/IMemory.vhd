@@ -4,6 +4,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity IMemory is
 	 port ( 
+	 		  clk	: in  std_logic;
 			  EN 	: in  std_logic;
            	  RA 	: in  std_logic_vector(7 downto 0);
 			  RD 	: out std_logic_vector(15 downto 0));
@@ -30,11 +31,13 @@ architecture Behavioral of IMemory is
 	--SW	$0, $5, 3		  110			000		 101		 0000011
 								
 begin
-	process(EN)
+	process(EN,clk)
 		begin
+		if(rising_edge(clk))then
 			if(EN = '1') then 
 				RD <= rom(to_integer(unsigned(RA(2 downto 0))));
 			end if;
+		end if;
 	end process;
 end Behavioral;
 

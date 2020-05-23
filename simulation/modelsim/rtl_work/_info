@@ -50,7 +50,7 @@ R11
 R12
 R13
 Econtrolunit
-Z15 w1590179065
+Z15 w1590190220
 Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z17 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R3
@@ -64,11 +64,11 @@ VH?]CQZLj?k9=6NDRMVIPg3
 !s100 HH7VB`NeoJdVDC2b]0a^43
 R7
 32
-Z20 !s110 1590181300
+!s110 1590190225
 !i10b 1
-Z21 !s108 1590181300.000000
-Z22 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/output_files/ControlUnit.vhd|
-Z23 !s107 /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd|
+!s108 1590190225.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/output_files/ControlUnit.vhd|
+!s107 /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd|
 !i113 1
 R12
 R13
@@ -77,40 +77,40 @@ R16
 R17
 R3
 R4
-Z24 DEx4 work 11 controlunit 0 22 H?]CQZLj?k9=6NDRMVIPg3
+Z21 DEx4 work 11 controlunit 0 22 H?]CQZLj?k9=6NDRMVIPg3
 l34
 L25
-Vm<n1A?@:^35[jibOUGk8L2
-!s100 4EWTcP7mN_Zb70:^Q4Mo83
+VD<8Q;jK@6fg`@1e6Xi?e82
+!s100 Y6EGKgja3gjj_eQ;0`]e?3
 R7
 32
-R20
+!s110 1590190214
 !i10b 1
-R21
-R22
-R23
+!s108 1590190214.000000
+R20
+!s107 /home/duarte/repomipsogait/src/output_files/ControlUnit.vhd|
 !i113 1
 R12
 R13
 Ectr_unit_tb
-Z25 w1590145677
+Z22 w1590145677
 R2
 R3
 R4
 R0
-Z26 8/home/duarte/repomipsogait/src/ctr_unit_tb.vhd
-Z27 F/home/duarte/repomipsogait/src/ctr_unit_tb.vhd
+Z23 8/home/duarte/repomipsogait/src/ctr_unit_tb.vhd
+Z24 F/home/duarte/repomipsogait/src/ctr_unit_tb.vhd
 l0
 L5
 VLjhC]P5a_OQgM1GhkgmW23
 !s100 4Z5:o86^J`]4LM0cWlHUe0
 R7
 32
-Z28 !s110 1590179238
+Z25 !s110 1590179238
 !i10b 1
-Z29 !s108 1590179238.000000
-Z30 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/ctr_unit_tb.vhd|
-Z31 !s107 /home/duarte/repomipsogait/src/ctr_unit_tb.vhd|
+Z26 !s108 1590179238.000000
+Z27 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/ctr_unit_tb.vhd|
+Z28 !s107 /home/duarte/repomipsogait/src/ctr_unit_tb.vhd|
 !i113 1
 R12
 R13
@@ -128,63 +128,63 @@ V@?YLY`kBMndfR??CB73B=0
 !s100 ?E;3B0Cz@^zReH4_E>W>I0
 R7
 32
-R28
+R25
 !i10b 1
-R29
-R30
-R31
+R26
+R27
+R28
 !i113 1
 R12
 R13
 Edatapath
-Z32 w1590176611
+Z29 w1590184564
 R2
 R16
 R17
 R3
 R4
 R0
-Z33 8/home/duarte/repomipsogait/src/datapath.vhd
-Z34 F/home/duarte/repomipsogait/src/datapath.vhd
+Z30 8/home/duarte/repomipsogait/src/datapath.vhd
+Z31 F/home/duarte/repomipsogait/src/datapath.vhd
 l0
 L8
 V@NhXFz8U[DaZS;03FP>D_2
 !s100 Zz`V;2;`Io8^NT=F2=HaZ1
 R7
 32
-Z35 !s110 1590181304
+Z32 !s110 1590184763
 !i10b 1
-Z36 !s108 1590181304.000000
-Z37 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/datapath.vhd|
-Z38 !s107 /home/duarte/repomipsogait/src/datapath.vhd|
+Z33 !s108 1590184763.000000
+Z34 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/datapath.vhd|
+Z35 !s107 /home/duarte/repomipsogait/src/datapath.vhd|
 !i113 1
 R12
 R13
 Astruct
-Z39 DEx4 work 7 dmemory 0 22 `hTZ9<JITcme?HNe2CW7m2
+Z36 DEx4 work 7 dmemory 0 22 `hTZ9<JITcme?HNe2CW7m2
 R14
-Z40 DEx4 work 9 registers 0 22 n@1UK2d3b?DB?6goZ6N^N1
-Z41 DEx4 work 3 mux 0 22 JASVH9;09Q]`Z1le9`?N[3
-Z42 DEx4 work 15 signal_extender 0 22 n3VHEmL77A<k0z8ZTZd9V2
-Z43 DEx4 work 7 imemory 0 22 zzk0jECNSmj<HMURI3Y]a2
-Z44 DEx4 work 2 pc 0 22 8codgPKHX:PG38^:D]WW;1
+Z37 DEx4 work 9 registers 0 22 n@1UK2d3b?DB?6goZ6N^N1
+Z38 DEx4 work 3 mux 0 22 JASVH9;09Q]`Z1le9`?N[3
+Z39 DEx4 work 15 signal_extender 0 22 n3VHEmL77A<k0z8ZTZd9V2
+Z40 DEx4 work 7 imemory 0 22 i]jSiaI:aXnA[P1>cAQ:H3
+Z41 DEx4 work 2 pc 0 22 8codgPKHX:PG38^:D]WW;1
 R2
 R16
 R17
 R3
 R4
-Z45 DEx4 work 8 datapath 0 22 @NhXFz8U[DaZS;03FP>D_2
+Z42 DEx4 work 8 datapath 0 22 @NhXFz8U[DaZS;03FP>D_2
 l52
 L27
-VS@B^Vl;8kPzcmOGf1ze5K2
-!s100 zb<?Di?HL]j64CkzI2JVf3
+VbG9f@@VW4YGF3dm7lnYj13
+!s100 XHXMFhiO]N2hD@Alb>AkQ1
 R7
 32
-R35
+R32
 !i10b 1
-R36
-R37
-R38
+R33
+R34
+R35
 !i113 1
 R12
 R13
@@ -211,24 +211,24 @@ R7
 R12
 R13
 Edmemory
-Z46 w1590111172
+Z43 w1590111172
 R2
 R3
 R4
 R0
-Z47 8/home/duarte/repomipsogait/src/DMemory.vhd
-Z48 F/home/duarte/repomipsogait/src/DMemory.vhd
+Z44 8/home/duarte/repomipsogait/src/DMemory.vhd
+Z45 F/home/duarte/repomipsogait/src/DMemory.vhd
 l0
 L5
 V`hTZ9<JITcme?HNe2CW7m2
 !s100 FQ>=?@j9lj;G6GD5RklO73
 R7
 32
-Z49 !s110 1590179240
+Z46 !s110 1590179240
 !i10b 1
-Z50 !s108 1590179240.000000
-Z51 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/DMemory.vhd|
-Z52 !s107 /home/duarte/repomipsogait/src/DMemory.vhd|
+Z47 !s108 1590179240.000000
+Z48 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/DMemory.vhd|
+Z49 !s107 /home/duarte/repomipsogait/src/DMemory.vhd|
 !i113 1
 R12
 R13
@@ -236,45 +236,45 @@ Abehavioral
 R2
 R3
 R4
-R39
+R36
 l18
 L13
 Vc0]NK7oGVlTE:7@_h]I:V3
 !s100 aRjHY5j^T3D5N<f_z;P^H3
 R7
 32
-R49
+R46
 !i10b 1
-R50
-R51
-R52
+R47
+R48
+R49
 !i113 1
 R12
 R13
 Edmemory_tb
-Z53 w1590111231
+Z50 w1590111231
 R2
 R3
 R4
 R0
-Z54 8/home/duarte/repomipsogait/src/DMemory_tb.vhd
-Z55 F/home/duarte/repomipsogait/src/DMemory_tb.vhd
+Z51 8/home/duarte/repomipsogait/src/DMemory_tb.vhd
+Z52 F/home/duarte/repomipsogait/src/DMemory_tb.vhd
 l0
 L30
 VlGO@EPdB65nTEKb:Y:BOG0
 !s100 gI_WQd<<^b83]gKO<7::J1
 R7
 32
-R49
+R46
 !i10b 1
-R50
-Z56 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/DMemory_tb.vhd|
-Z57 !s107 /home/duarte/repomipsogait/src/DMemory_tb.vhd|
+R47
+Z53 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/DMemory_tb.vhd|
+Z54 !s107 /home/duarte/repomipsogait/src/DMemory_tb.vhd|
 !i113 1
 R12
 R13
 Atestbench
-R39
+R36
 R2
 R3
 R4
@@ -285,199 +285,33 @@ V:E[BieZ3hPAWH5OIC@D0Z0
 !s100 zK83ZK:e]GP>a98YP<lUY2
 R7
 32
-R49
+R46
 !i10b 1
-R50
-R56
-R57
+R47
+R53
+R54
 !i113 1
 R12
 R13
 Eimemory
-Z58 w1590181110
+Z55 w1590184537
 R2
 R3
 R4
 R0
-Z59 8/home/duarte/repomipsogait/src/IMemory.vhd
-Z60 F/home/duarte/repomipsogait/src/IMemory.vhd
+Z56 8/home/duarte/repomipsogait/src/IMemory.vhd
+Z57 F/home/duarte/repomipsogait/src/IMemory.vhd
 l0
 L5
-Vzzk0jECNSmj<HMURI3Y]a2
-!s100 F7KhZmV_TW?Y9HUH6M[K03
+Vi]jSiaI:aXnA[P1>cAQ:H3
+!s100 TfeiOO5]H7kd9R=SG2age2
 R7
 32
-Z61 !s110 1590181292
+Z58 !s110 1590184756
 !i10b 1
-Z62 !s108 1590181292.000000
-Z63 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/IMemory.vhd|
-Z64 !s107 /home/duarte/repomipsogait/src/IMemory.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-R2
-R3
-R4
-R43
-l32
-L12
-VDHAjgT]9iC?fTio[dP[?`3
-!s100 RLRkZ?oRa]@a7djMSB3Cf2
-R7
-32
-R61
-!i10b 1
-R62
-R63
-R64
-!i113 1
-R12
-R13
-Einterconnect_tb
-Z65 w1590181780
-R2
-R3
-R4
-R0
-Z66 8/home/duarte/repomipsogait/src/interconnect.vhd
-Z67 F/home/duarte/repomipsogait/src/interconnect.vhd
-l0
-L30
-VUZ@??oc[b8]ShOieM^E0g2
-!s100 zO:N1P6m3JWOn=9IJ@:5U2
-R7
-32
-Z68 !s110 1590181786
-!i10b 1
-Z69 !s108 1590181786.000000
-Z70 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/interconnect.vhd|
-Z71 !s107 /home/duarte/repomipsogait/src/interconnect.vhd|
-!i113 1
-R12
-R13
-Atestbench
-R24
-R16
-R17
-R45
-R2
-R3
-R4
-Z72 DEx4 work 15 interconnect_tb 0 22 UZ@??oc[b8]ShOieM^E0g2
-l56
-L36
-VL6`6EJoUEF4>fM_MTg]R73
-!s100 FF71227N=coIZ@zg>>bnS0
-R7
-32
-R68
-!i10b 1
-R69
-R70
-R71
-!i113 1
-R12
-R13
-Emux
-Z73 w1590096527
-R3
-R4
-R0
-Z74 8/home/duarte/repomipsogait/src/mux.vhd
-Z75 F/home/duarte/repomipsogait/src/mux.vhd
-l0
-L4
-VJASVH9;09Q]`Z1le9`?N[3
-!s100 f`CellABT8gSeMX7nfVLl1
-R7
-32
-Z76 !s110 1590179243
-!i10b 1
-Z77 !s108 1590179243.000000
-Z78 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/mux.vhd|
-Z79 !s107 /home/duarte/repomipsogait/src/mux.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-R3
-R4
-R41
-l14
-L13
-V@aLe89BbD>d=dIDcDChjo2
-!s100 aOQOOaI23cjR[8hC_YFme0
-R7
-32
-R76
-!i10b 1
-R77
-R78
-R79
-!i113 1
-R12
-R13
-Epc
-Z80 w1590175412
-R16
-R3
-R4
-R0
-Z81 8/home/duarte/repomipsogait/src/pc.vhd
-Z82 F/home/duarte/repomipsogait/src/pc.vhd
-l0
-L5
-V8codgPKHX:PG38^:D]WW;1
-!s100 hhSj2gFH0WaIWMT`kkBGB1
-R7
-32
-Z83 !s110 1590179242
-!i10b 1
-Z84 !s108 1590179242.000000
-Z85 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/pc.vhd|
-Z86 !s107 /home/duarte/repomipsogait/src/pc.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-R16
-R3
-R4
-R44
-l17
-L15
-VWd[24b:<g898BmNI8JQ>z3
-!s100 ?N_CQ=1L]WXjn6?WG?J6c3
-R7
-32
-R83
-!i10b 1
-R84
-R85
-R86
-!i113 1
-R12
-R13
-Eregisters
-Z87 w1590173003
-R2
-R3
-R4
-R0
-Z88 8/home/duarte/repomipsogait/src/registers.vhd
-Z89 F/home/duarte/repomipsogait/src/registers.vhd
-l0
-L5
-Vn@1UK2d3b?DB?6goZ6N^N1
-!s100 mfI;ZLCoG7B`zo:1Kf9320
-R7
-32
-R83
-!i10b 1
-R84
-Z90 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/registers.vhd|
-Z91 !s107 /home/duarte/repomipsogait/src/registers.vhd|
+Z59 !s108 1590184756.000000
+Z60 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/IMemory.vhd|
+Z61 !s107 /home/duarte/repomipsogait/src/IMemory.vhd|
 !i113 1
 R12
 R13
@@ -486,22 +320,188 @@ R2
 R3
 R4
 R40
+l33
+L13
+Vz[k;Y9i6DBoSaW]7P0GT?3
+!s100 f2TRWSZMR?Sg:f_JKRhcI0
+R7
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R12
+R13
+Einterconnect_tb
+Z62 w1590185579
+R2
+R3
+R4
+R0
+Z63 8/home/duarte/repomipsogait/src/interconnect.vhd
+Z64 F/home/duarte/repomipsogait/src/interconnect.vhd
+l0
+L30
+VUZ@??oc[b8]ShOieM^E0g2
+!s100 zO:N1P6m3JWOn=9IJ@:5U2
+R7
+32
+Z65 !s110 1590186034
+!i10b 1
+Z66 !s108 1590186034.000000
+Z67 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/interconnect.vhd|
+Z68 !s107 /home/duarte/repomipsogait/src/interconnect.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R21
+R16
+R17
+R42
+R2
+R3
+R4
+DEx4 work 15 interconnect_tb 0 22 UZ@??oc[b8]ShOieM^E0g2
+l56
+L36
+V6;9Aec@C@k=SbN>nB`hl43
+!s100 g4^WoT@_aPG`lHFn8oZZX2
+R7
+32
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R12
+R13
+Emux
+Z69 w1590096527
+R3
+R4
+R0
+Z70 8/home/duarte/repomipsogait/src/mux.vhd
+Z71 F/home/duarte/repomipsogait/src/mux.vhd
+l0
+L4
+VJASVH9;09Q]`Z1le9`?N[3
+!s100 f`CellABT8gSeMX7nfVLl1
+R7
+32
+Z72 !s110 1590179243
+!i10b 1
+Z73 !s108 1590179243.000000
+Z74 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/mux.vhd|
+Z75 !s107 /home/duarte/repomipsogait/src/mux.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+R38
+l14
+L13
+V@aLe89BbD>d=dIDcDChjo2
+!s100 aOQOOaI23cjR[8hC_YFme0
+R7
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R12
+R13
+Epc
+Z76 w1590184670
+R16
+R3
+R4
+R0
+Z77 8/home/duarte/repomipsogait/src/pc.vhd
+Z78 F/home/duarte/repomipsogait/src/pc.vhd
+l0
+L5
+V8codgPKHX:PG38^:D]WW;1
+!s100 hhSj2gFH0WaIWMT`kkBGB1
+R7
+32
+Z79 !s110 1590184750
+!i10b 1
+Z80 !s108 1590184750.000000
+Z81 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/pc.vhd|
+Z82 !s107 /home/duarte/repomipsogait/src/pc.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R16
+R3
+R4
+R41
+l17
+L15
+VaAnioc>^E`AI7kCBfKXUa0
+!s100 @;DA^^WdkVf8ANddAiI^Q3
+R7
+32
+R79
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R12
+R13
+Eregisters
+Z83 w1590173003
+R2
+R3
+R4
+R0
+Z84 8/home/duarte/repomipsogait/src/registers.vhd
+Z85 F/home/duarte/repomipsogait/src/registers.vhd
+l0
+L5
+Vn@1UK2d3b?DB?6goZ6N^N1
+!s100 mfI;ZLCoG7B`zo:1Kf9320
+R7
+32
+Z86 !s110 1590179242
+!i10b 1
+Z87 !s108 1590179242.000000
+Z88 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/registers.vhd|
+Z89 !s107 /home/duarte/repomipsogait/src/registers.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R37
 l25
 L19
 V_XIjA9_]BYcW=nYMCQGml0
 !s100 2U`A4]SWgM=iB`4o^=K0V1
 R7
 32
-R83
+R86
 !i10b 1
-R84
-R90
-R91
+R87
+R88
+R89
 !i113 1
 R12
 R13
 Eregisters_tb
-R73
+R69
 R2
 R3
 R4
@@ -514,34 +514,34 @@ VzSo2VL:8;BJo];m9n:<:X2
 !s100 XD5m0od5c`V5R7V3cUGY33
 R7
 32
-Z92 !s110 1590179241
+Z90 !s110 1590179241
 !i10b 1
-Z93 !s108 1590179241.000000
+Z91 !s108 1590179241.000000
 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/registers_tb.vhd|
 !s107 /home/duarte/repomipsogait/src/registers_tb.vhd|
 !i113 1
 R12
 R13
 Esignal_extender
-R73
+R69
 R16
 R17
 R3
 R4
 R0
-Z94 8/home/duarte/repomipsogait/src/signal_extender.vhd
-Z95 F/home/duarte/repomipsogait/src/signal_extender.vhd
+Z92 8/home/duarte/repomipsogait/src/signal_extender.vhd
+Z93 F/home/duarte/repomipsogait/src/signal_extender.vhd
 l0
 L5
 Vn3VHEmL77A<k0z8ZTZd9V2
 !s100 I0LVL0God5HNQebi^oW>L1
 R7
 32
-R92
+R90
 !i10b 1
-R93
-Z96 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/signal_extender.vhd|
-Z97 !s107 /home/duarte/repomipsogait/src/signal_extender.vhd|
+R91
+Z94 !s90 -reportprogress|300|-work|work|/home/duarte/repomipsogait/src/signal_extender.vhd|
+Z95 !s107 /home/duarte/repomipsogait/src/signal_extender.vhd|
 !i113 1
 R12
 R13
@@ -550,18 +550,18 @@ R16
 R17
 R3
 R4
-R42
+R39
 l12
 L10
 VjeH6jU[YMiYUR0JZ[7VNO3
 !s100 8`O04VS?m;AY;3WAJmH^h1
 R7
 32
-R92
+R90
 !i10b 1
-R93
-R96
-R97
+R91
+R94
+R95
 !i113 1
 R12
 R13

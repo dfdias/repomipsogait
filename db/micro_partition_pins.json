@@ -4,63 +4,67 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "EnPC",
+					"name" : "inst[0]",
 					"strict" : false
 				},
 				{
-					"name" : "RI",
+					"name" : "inst[1]",
 					"strict" : false
 				},
 				{
-					"name" : "RegWr",
+					"name" : "inst[2]",
 					"strict" : false
 				},
 				{
-					"name" : "RegDst",
+					"name" : "inst[3]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUSrc",
+					"name" : "inst[4]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUOp[0]",
+					"name" : "inst[5]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUOp[1]",
+					"name" : "inst[6]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUOp[2]",
+					"name" : "inst[7]",
 					"strict" : false
 				},
 				{
-					"name" : "ALUOp[3]",
+					"name" : "inst[8]",
 					"strict" : false
 				},
 				{
-					"name" : "MemWr",
+					"name" : "inst[9]",
 					"strict" : false
 				},
 				{
-					"name" : "MemtoReg",
+					"name" : "inst[10]",
 					"strict" : false
 				},
 				{
-					"name" : "func[0]",
+					"name" : "inst[11]",
 					"strict" : false
 				},
 				{
-					"name" : "func[1]",
+					"name" : "inst[12]",
 					"strict" : false
 				},
 				{
-					"name" : "func[2]",
+					"name" : "inst[13]",
 					"strict" : false
 				},
 				{
-					"name" : "func[3]",
+					"name" : "inst[14]",
+					"strict" : false
+				},
+				{
+					"name" : "inst[15]",
 					"strict" : false
 				},
 				{
@@ -68,19 +72,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "RI",
+					"strict" : false
+				},
+				{
+					"name" : "EnPC",
+					"strict" : false
+				},
+				{
 					"name" : "rst",
-					"strict" : false
-				},
-				{
-					"name" : "opcode[2]",
-					"strict" : false
-				},
-				{
-					"name" : "opcode[1]",
-					"strict" : false
-				},
-				{
-					"name" : "opcode[0]",
 					"strict" : false
 				}
 			]
