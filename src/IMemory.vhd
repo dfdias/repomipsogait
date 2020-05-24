@@ -27,7 +27,7 @@ architecture Behavioral of IMemory is
 		--							 3bits	  3 bits	  3 bits		3 bits	4 bits
 	--							[opcode]	  	[rs]		[rt]		 [rd]	 	[func]
 
-	--SW	$0, $5, 2		  110			000		 101		 0000010
+	--SW	$0, $5, 2		  110			000		 100		 0000010
 	--SW	$0, $5, 3		  110			000		 101		 0000011
 								
 begin

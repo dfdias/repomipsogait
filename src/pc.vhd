@@ -5,10 +5,13 @@ use ieee.std_logic_arith.all;
 entity pc is
 
 	port(
-		rst : in  std_logic;
-		clk : in  std_logic;
-		EN  : in  std_logic;
-		Cnt : out std_logic_vector(7 downto 0)
+		load : in  std_logic;
+		rst  : in  std_logic;
+		clk  : in  std_logic;
+		EN   : in  std_logic;
+		newpc : in std_logic_vector(7 downto 0);
+
+		Cnt  : out std_logic_vector(7 downto 0)
 	);
 end pc;
 
@@ -22,6 +25,8 @@ begin
 		elsif rising_edge(clk) then
 			if (EN = '1') then
 				addr <= addr + '1';
+			elsif (load = '1') then 
+				addr <= unsigned(newpc);
 			end if;
 		end if;
 	end process;

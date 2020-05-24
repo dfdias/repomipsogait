@@ -9,6 +9,8 @@ entity alu is
 		aluOp  : in  std_logic_vector(3 downto 0);
 		op1    : in  std_logic_vector(size-1 downto 0);
 		op2    : in  std_logic_vector(size-1 downto 0);
+
+		branch : out std_logic;
 		result : out std_logic_vector(size-1 downto 0));
 
 end alu;
@@ -23,7 +25,7 @@ begin
 	operations : process(aluOp,op1,op2,s_resultaux)
 	begin
 		s_resultaux <= 0;
-
+		branch <= '0';
 		if(aluOp = "0000") then
 			s_resultaux <= to_integer(unsigned(op1)) + to_integer(unsigned(op2));
 			s_result    <= std_logic_vector(to_signed(s_resultaux,8));
@@ -65,6 +67,7 @@ begin
 		elsif(aluOp = "1101")then
 			if(unsigned(op1) < unsigned(op2)) then
 				s_result <= "00000001";
+				branch 	 <= '1';
 			else
 				s_result <= X"00";
 			end if;

@@ -14,6 +14,7 @@ entity ControlUnit is
 		RegWr  : out std_logic;
 		RegDst : out std_logic;
 		ALUSrc : out std_logic;
+		loadPC : out std_logic;
 
 		ALUOp : out std_logic_vector(3 downto 0);
 
@@ -24,14 +25,15 @@ end ControlUnit;
 
 architecture Behavioral of ControlUnit is
 
-	TYPE state IS (Reset, Fetch, Decode, Execute, RegUpdate, WriteMem);
+	TYPE state IS (Reset, Fetch, Decode, Execute, RegUpdate, WriteMem, Jump);
 	signal PS, NS : state;
 
-	type optype IS (NOP,ARITH,ADDI,SW,LW,INVALID);
+	type optype IS (NOP,ARITH,ADDI,SW,LW,INVALID,Branch);
 	signal op, op_next : optype ;
 
-	signal s_aluop, s_aluop_next : std_logic_vector(3 downto 0);
-	signal s_alusrc,s_alusrc_next,s_regdst,s_regdst_next,s_memtoreg,s_memtoreg_next : std_logic;
+	--signal s_aluop, s_aluop_next : std_logic_vector(3 downto 0);
+	
+	--	signal s_alusrc,s_alusrc_next,s_regdst,s_regdst_next,s_memtoreg,s_memtoreg_next : std_logic;
 
 begin
 	seq_proc : process(clk,rst)
@@ -40,10 +42,6 @@ begin
 			PS <= Reset;
 		elsif rising_edge(clk) then
 			PS <= NS;
-			s_aluop <= s_aluop_next;
-			s_regdst <= s_regdst_next;
-			s_memtoreg <= s_memtoreg_next;
-			s_alusrc <= s_alusrc_next;
 			op <= op_next;
 		end if;
 	end process;
@@ -62,6 +60,7 @@ begin
 		ALUOp    <= (others => '0');
 		MemWr    <= '0';
 		MemtoReg <= '0';
+		Jump 	 <= '0';
 
 
 		case PS is
@@ -90,6 +89,8 @@ begin
 					op_next <= SW;
 				elsif opcode <= "111" then
 					op_next <= LW;
+				elsif opcode <= "010" then
+					op_next <= BEQ;
 				else
 					op_next <= INVALID;
 				end if;
@@ -104,7 +105,7 @@ begin
 						ALUOp  <= func;
 						NS     <= RegUpdate;
 					when LW =>
-						ALUSrc <= '0';
+						ALUSrc <= '1';
 						ALUOp  <= "0000";
 						NS     <= RegUpdate;
 					when SW =>
@@ -115,6 +116,10 @@ begin
 						ALUSrc <= '1';
 						ALUOp  <= "0000";
 						NS     <= RegUpdate;
+					when BEQ =>
+						ALUSrc <= '0';
+						ALUOp  <= "1011";
+						NS <= Jump;
 					when INVALID =>
 						Null;
 				end case;
@@ -130,7 +135,7 @@ begin
 						MemtoReg <= '0';	
 					when LW =>
 						ALUOp  <= "0000";
-						ALUSrc <= '0';
+						ALUSrc <= '1';
 						RegDst   <= '1';
 						MemtoReg <= '1';	
 					when ADDI =>
@@ -146,10 +151,15 @@ begin
 				NS       <= Fetch ;
 
 			when WriteMem =>
+				RegDst <= 'X';
 				MemWr  <= '1';
 				ALUSrc <= '1';
 				ALUOp  <= "0000";
 				NS     <= Fetch;
+
+			when Jump =>
+				loadPC <= '1';
+				NS	<= Fetch;
 
 		end case;
 	end process;
